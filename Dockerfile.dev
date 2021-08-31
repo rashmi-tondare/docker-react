@@ -7,6 +7,6 @@ RUN npm install
 
 # Copy all source code if required.
 # Skipping now since we're using docker volumes in the docker-compose file
-# COPY . .
+COPY . .
 
 CMD ["npm", "run", "start"]
